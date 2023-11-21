@@ -17,6 +17,11 @@
   <script src="./auth_token.js"></script>
   <script src="./config.js"></script>
   <script src="./js/gotty.js"></script>
+  <script>
+    window.addEventListener("focus", () => {
+      window.parent?.postMessage("workspace/focused", "*");
+    });
+  </script>
 </body>
 
 </html>
