@@ -25,6 +25,7 @@ export class OurXterm {
     toServer: (data: string | Uint8Array) => void;
     encoder: TextEncoder
 
+    // options: https://github.com/xtermjs/xterm.js/blob/master/typings/xterm.d.ts
     constructor(elem: HTMLElement) {
         this.elem = elem;
         this.term = new Terminal({
@@ -32,6 +33,7 @@ export class OurXterm {
           fontFamily: `"Berkeley Mono", Courier, monospace`,
           cursorStyle: "block",
           cursorBlink: false,
+          macOptionIsMeta: true,
           theme: {
             cursor: "#7f7070",
             foreground: "#4d2f2d",
