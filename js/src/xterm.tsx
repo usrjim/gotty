@@ -34,6 +34,7 @@ export class OurXterm {
           cursorStyle: "block",
           cursorBlink: false,
           macOptionIsMeta: true,
+          lineHeight: 1.4,
           theme: {
             cursor: "#7f7070",
             foreground: "#4d2f2d",

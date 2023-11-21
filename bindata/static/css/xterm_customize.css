@@ -6,8 +6,9 @@
     font-family: "Berkeley Mono", Courier, monospace;
     border-radius: 15px;
     font-size: xx-large;
-    color: black;
-    background: white;
+    text-transform: uppercase;
+    color: white;
+    background: #66654b;
     opacity: 0.75;
     padding: 0.2em 0.5em 0.2em 0.5em;
     position: absolute;
