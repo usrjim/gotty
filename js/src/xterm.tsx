@@ -33,9 +33,9 @@ export class OurXterm {
           cursorStyle: "block",
           cursorBlink: false,
           theme: {
-            cursor: "#796b60",
-            foreground: "#513431",
-            background: "#dfdac3"
+            cursor: "#7f7070",
+            foreground: "#4d2f2d",
+            background: "#e5dece"
           }
         });
         this.fitAddOn = new FitAddon();
