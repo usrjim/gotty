@@ -1,5 +1,6 @@
 .terminal {
     font-family: "Berkeley Mono", Courier, monospace;
+    font-size: 13px;
 }
 
 .xterm-overlay {
