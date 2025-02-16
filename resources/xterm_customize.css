@@ -8,8 +8,8 @@
     border-radius: 15px;
     font-size: xx-large;
     text-transform: uppercase;
-    color: white;
-    background: #66654b;
+    color: #0AF0FB;
+    background: #03191A;
     opacity: 0.75;
     padding: 0.2em 0.5em 0.2em 0.5em;
     position: absolute;
@@ -18,4 +18,23 @@
     transform: translate(-50%, -50%);
     user-select: none;
     transition: opacity 180ms ease-in;
+}
+
+.xterm-viewport {
+    scrollbar-width: thin;
+    scrollbar-color: #12BAC1 #03191A;
+}
+
+.xterm-viewport::-webkit-scrollbar {
+    width: 8px;
+}
+
+.xterm-viewport::-webkit-scrollbar-track {
+    background: #03191A;
+}
+
+.xterm-viewport::-webkit-scrollbar-thumb {
+    background-color: #12BAC1;
+    border-radius: 10px;
+    border: 2px solid #03191A;
 }
