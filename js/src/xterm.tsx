@@ -37,8 +37,8 @@ export class OurXterm {
           lineHeight: 1.2,
           allowTransparency: true,
           theme: {
-            cursor: "#01C6C1",
-            foreground: "#0CF1FA",
+            cursor: "#FFBF00",
+            foreground: "#FFBF00",
             background: "#03191B"
           }
         });
