@@ -32,9 +32,10 @@ export class OurXterm {
           fontSize: 12,
           fontFamily: `"Berkeley Mono", Courier, monospace`,
           cursorStyle: "block",
-          cursorBlink: false,
+          cursorBlink: true,
           macOptionIsMeta: true,
           lineHeight: 1.2,
+          allowTransparency: true,
           theme: {
             cursor: "#01C6C1",
             foreground: "#0CF1FA",
