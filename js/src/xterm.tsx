@@ -29,17 +29,17 @@ export class OurXterm {
     constructor(elem: HTMLElement) {
         this.elem = elem;
         this.term = new Terminal({
-          fontSize: 14,
+          fontSize: 15,
           fontFamily: `"Berkeley Mono", Courier, monospace`,
           cursorStyle: "block",
-          cursorBlink: true,
+          cursorBlink: false,
           macOptionIsMeta: true,
           lineHeight: 1.2,
           allowTransparency: true,
           theme: {
-            cursor: "#FFB000",
-            foreground: "#FFB000",
-            background: "#03191B"
+            cursor: "#F7CD62",
+            foreground: "#F7CD62",
+            background: "#03191A"
           }
         });
         this.fitAddOn = new FitAddon();
