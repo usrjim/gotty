@@ -1,14 +1,9 @@
-.terminal {
-    font-family: "Berkeley Mono", Courier, monospace;
-    font-size: 13px;
-}
-
 .xterm-overlay {
     font-family: "Berkeley Mono", Courier, monospace;
     border-radius: 15px;
     font-size: xx-large;
     text-transform: uppercase;
-    color: #F7CD62;
+    color: #33c3f0;
     background: #03191A;
     opacity: 0.75;
     padding: 0.2em 0.5em 0.2em 0.5em;
