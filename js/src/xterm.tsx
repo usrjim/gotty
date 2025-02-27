@@ -29,7 +29,7 @@ export class OurXterm {
     constructor(elem: HTMLElement) {
         this.elem = elem;
         this.term = new Terminal({
-          fontSize: 14,
+          fontSize: 13,
           fontFamily: `"Berkeley Mono", Courier, monospace`,
           cursorStyle: "block",
           cursorBlink: false,
@@ -37,9 +37,9 @@ export class OurXterm {
           lineHeight: 1.2,
           allowTransparency: true,
           theme: {
-            cursor: "#33c3f0",
-            foreground: "#33c3f0",
-            background: "#03191A"
+            cursor: "#747063",
+            foreground: "#302c2b",
+            background: "#d0c4a8"
           }
         });
         this.fitAddOn = new FitAddon();
